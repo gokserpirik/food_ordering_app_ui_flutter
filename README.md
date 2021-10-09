@@ -16,6 +16,7 @@ Used 	google_fonts: ^2.1.0
  
 
 ## Samples
+The random button on bottom-right gives you a random food. I personally always wanted smth like that in apps so added it to a ui project hahaha (YEP, it works as much as I could make.)
 
 ![gokserpirik-food-order (1)](https://user-images.githubusercontent.com/48176173/136657132-4f4edb02-7d7d-413d-b3f6-54e2ea241070.jpeg)
 ![gokserpirik-food-order (5)](https://user-images.githubusercontent.com/48176173/136657137-d26e14dd-828e-4295-aaec-456e6c96bced.jpeg)
