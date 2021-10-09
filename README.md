@@ -1,6 +1,5 @@
 # foodorderapp
-<img alt="Cocoapods platforms" src="https://img.shields.io/cocoapods/p/gflutter?color=7f42cf&label=codedWith&logo=Flutter&logoColor=%20&style=for-the-badge">
-A new Flutter project.
+![Coverage](https://raw.githubusercontent.com/gokserpirik/food_ordering_app_ui_flutter/master/coverage_badge.svg?sanitize=true)A new Flutter project.
 
 ## Getting Started
 
