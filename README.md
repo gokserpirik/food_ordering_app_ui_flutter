@@ -4,6 +4,8 @@
 
 A food ordering app UI which has a main page, list category page, choose delivery market page etc.
 
+You can also check aboutApp.dart!
+
 Used Flutter/Dart
 
 Used Getir's color palette. Getir is a big company in Turkey which also delivers food etc.
