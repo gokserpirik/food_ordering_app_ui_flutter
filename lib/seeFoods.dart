@@ -20,6 +20,7 @@ class _seeFoodsState extends State<seeFoods> {
   @override
   Widget build(BuildContext context) {
    
+    //Getting the index from the main page and converting it to an integer.
     int category = int.parse("${widget.foodindex}");
    
     return Scaffold(
