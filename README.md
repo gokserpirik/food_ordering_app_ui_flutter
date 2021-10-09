@@ -1,5 +1,13 @@
 # foodorderapp
-![Coverage](https://raw.githubusercontent.com/gokserpirik/food_ordering_app_ui_flutter/master/coverage_badge.svg?sanitize=true)A new Flutter project.
+<h1 style="text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font: {
+		size: 20vw;
+		
+	};">Hello</h1>
+
 
 ## Getting Started
 
