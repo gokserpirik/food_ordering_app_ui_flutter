@@ -23,6 +23,59 @@ class _seeFoodsState extends State<seeFoods> {
     int category = int.parse("${widget.foodindex}");
    
     return Scaffold(
+      drawer: Drawer(
+      child: Column(
+        children: [
+          Container(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height*(0.2).toDouble(),
+            child: Center(
+              child: Text(
+                'Order Food',
+                style:  Theme.of(context).textTheme.headline1,
+              ),
+            ),
+            decoration: BoxDecoration(
+                gradient: LinearGradient(colors: [colors[1],colors[3]])
+                ),
+          ),
+          
+          SizedBox(height: 20,),
+          // * I didn't add a List Generator here bc these were my last lines so I choosed to go with classic way to do this part. You can use a list generator as your best way.
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Row(
+              children: [
+                FaIcon(FontAwesomeIcons.solidUser,color: colors[1],),
+                SizedBox(width: 10,),
+                Text("Your Profile", style: Theme.of(context).textTheme.bodyText1,)
+              ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Row(
+              children: [
+                FaIcon(FontAwesomeIcons.shoppingBasket ,color: colors[1],),
+                SizedBox(width: 10,),
+                Text("Orders", style: Theme.of(context).textTheme.bodyText1,)
+              ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Row(
+              children: [
+                FaIcon(FontAwesomeIcons.github ,color: colors[1],),
+                SizedBox(width: 10,),
+                Text("@gokserpirik", style: Theme.of(context).textTheme.bodyText1,)
+              ],
+            ),
+          ),
+        ],
+      ),
+    ),
+
       body: 
       //Text("${widget.foodindex}")
       SingleChildScrollView(
@@ -34,10 +87,33 @@ class _seeFoodsState extends State<seeFoods> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Icon(FontAwesomeIcons.bars, color: colors[0],),
+                     Builder(
+                    builder:(context) => InkWell(onTap: () { 
+                    
+                        Scaffold.of(context).openDrawer();},child: Icon(FontAwesomeIcons.bars, color: colors[0],)),
+                  ),
                     // TODO name should be here:
                     Text(categs[category][0], style: Theme.of(context).textTheme.headline1 ,),
-                    Icon(FontAwesomeIcons.solidQuestionCircle, color: colors[0],)
+                    InkWell(
+                    onTap: (){
+                      Navigator.push(
+                context,
+                PageRouteBuilder(
+                    transitionDuration: Duration(seconds: 1),
+                    transitionsBuilder: (context, animation, animationTime, child) {
+                      animation = CurvedAnimation(
+                          parent: animation, curve: Curves.linearToEaseOut);
+                      return ScaleTransition(
+                        alignment: Alignment.center,
+                        scale: animation,
+                        child: child,
+                      );
+                    },
+                    pageBuilder: (context, animation, animationTime)=>
+                       helpMe(),)
+                );
+                    },
+                    child: Icon(FontAwesomeIcons.solidQuestionCircle, color: colors[0],))
                   ],
                 ),
               ),
