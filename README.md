@@ -17,7 +17,7 @@ Used 	google_fonts: ^2.1.0
 
 ## Samples
 
-Tbh, I didn't try to make every page great. It was my first project try so I only made basics of it. ![gokserpirik-food-order (1)](https://user-images.githubusercontent.com/48176173/136657132-4f4edb02-7d7d-413d-b3f6-54e2ea241070.jpeg)
+![gokserpirik-food-order (1)](https://user-images.githubusercontent.com/48176173/136657132-4f4edb02-7d7d-413d-b3f6-54e2ea241070.jpeg)
 ![gokserpirik-food-order (5)](https://user-images.githubusercontent.com/48176173/136657137-d26e14dd-828e-4295-aaec-456e6c96bced.jpeg)
 ![gokserpirik-food-order (2)](https://user-images.githubusercontent.com/48176173/136657141-66add289-8692-463d-b1c6-83d344ef5c51.jpeg)
 ![gokserpirik-food-order (4)](https://user-images.githubusercontent.com/48176173/136657143-049ad4e9-420f-4bda-baa6-d375d430df49.jpeg)
