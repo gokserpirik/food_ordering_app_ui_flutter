@@ -1,5 +1,5 @@
 # foodorderapp
-
+<img alt="Cocoapods platforms" src="https://img.shields.io/cocoapods/p/gflutter?color=7f42cf&label=codedWith&logo=Flutter&logoColor=%20&style=for-the-badge">
 A new Flutter project.
 
 ## Getting Started
