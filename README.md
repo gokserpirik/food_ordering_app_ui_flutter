@@ -18,6 +18,8 @@ Used Flutter/Dart
 Used Getir's color palette. Getir is a big company in Turkey which also delivers food etc.
 
 Used 	google_fonts: ^2.1.0 and font_awesome_flutter: ^9.1.0
+
+You can check color palette in "colors.dart"
  
 
 ## Samples
