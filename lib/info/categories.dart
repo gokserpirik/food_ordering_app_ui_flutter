@@ -10,4 +10,4 @@ List<dynamic> categs = [["Bestsellers", "We sold these a lot!",FaIcon(FontAwesom
 ["Hotdog","",FaIcon(FontAwesomeIcons.hotdog, color: colors[0],size: 16)]];
 
 
-List detailx = ["Detay vs vs vs vs", ""];
+//Category, explanation[which I removed later], the icon for that category.
