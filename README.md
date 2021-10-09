@@ -1,23 +1,24 @@
-# foodorderapp
-<h1 style="text-transform: uppercase;
-	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font: {
-		size: 20vw;
-		
-	};">Hello</h1>
+# food ordering app
 
+<div "center"> <img src="https://user-images.githubusercontent.com/48176173/136657151-1ce5e2bc-c0e7-4ec3-bcd7-4da774ef06ff.jpeg"></div>
+A food ordering app UI which has a main page, list category page, choose delivery market page etc.
+Used Flutter/Dart
+Used Getir's color palette. Getir is a big company in Turkey which also delivers food etc.
+
+### Disclaimer
+This app UI does NOT have a business side. Just maden to create something and improve/train my coding skills. 
 
 ## Getting Started
+Used Flutter/Dart
+Used Getir's color palette. Getir is a big company in Turkey which also delivers food etc.
+Used 	google_fonts: ^2.1.0
+	font_awesome_flutter: ^9.1.0
+ 
 
-This project is a starting point for a Flutter application.
+## Samples
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tbh, I didn't try to make every page great. It was my first project try so I only made basics of it. ![gokserpirik-food-order (1)](https://user-images.githubusercontent.com/48176173/136657132-4f4edb02-7d7d-413d-b3f6-54e2ea241070.jpeg)
+![gokserpirik-food-order (5)](https://user-images.githubusercontent.com/48176173/136657137-d26e14dd-828e-4295-aaec-456e6c96bced.jpeg)
+![gokserpirik-food-order (2)](https://user-images.githubusercontent.com/48176173/136657141-66add289-8692-463d-b1c6-83d344ef5c51.jpeg)
+![gokserpirik-food-order (4)](https://user-images.githubusercontent.com/48176173/136657143-049ad4e9-420f-4bda-baa6-d375d430df49.jpeg)
+![gokserpirik-food-order (3)](https://user-images.githubusercontent.com/48176173/136657144-ab6bf245-6be8-4c6d-9a78-d9047c7eed33.jpeg)
