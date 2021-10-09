@@ -24,6 +24,7 @@ class _foodDetailState extends State<foodDetail> {
   fullwidth = MediaQuery.of(context).size.width;
   fullheight = MediaQuery.of(context).size.height;
    
+   // * Random index maker. Which will help us to choose a random food to order!
   if (int.parse("${widget.foodname}") > -1) {
     number = int.parse("${widget.foodname}");
  
