@@ -1,17 +1,24 @@
 # food ordering app
 
 <div "center"> <img src="https://user-images.githubusercontent.com/48176173/136657151-1ce5e2bc-c0e7-4ec3-bcd7-4da774ef06ff.jpeg"></div>
+
 A food ordering app UI which has a main page, list category page, choose delivery market page etc.
+
 Used Flutter/Dart
+
 Used Getir's color palette. Getir is a big company in Turkey which also delivers food etc.
 
 ### Disclaimer
 This app UI does NOT have a business side. Just maden to create something and improve/train my coding skills. 
 
 ## Getting Started
+
 Used Flutter/Dart
+
 Used Getir's color palette. Getir is a big company in Turkey which also delivers food etc.
+
 Used 	google_fonts: ^2.1.0
+
 	font_awesome_flutter: ^9.1.0
  
 
