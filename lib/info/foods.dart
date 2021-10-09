@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// list is from " "!
+// list is from a GitHub user but I forgot the name. Thanks to who made this list!
 
 List fooda = [
 
